@@ -1,11 +1,11 @@
 "use client"
 
 import { navLinks } from "@/constants/index"
-import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, UserButton, Button } from "@clerk/nextjs";
 import Image from "@/node_modules/next/image"
 import Link from "@/node_modules/next/link"
 import { usePathname } from "@/node_modules/next/navigation"
-import { Button } from "../ui/button";
+
 
 const Sidebar = () => {
     const pathname = usePathname();
