@@ -12,7 +12,9 @@ import { navLinks } from "@/constants/index";
 import Image from "@/node_modules/next/image"
 import Link from "@/node_modules/next/link"
 import { usePathname } from "@/node_modules/next/navigation";
-import { SignedIn, UserButton, SignedOut, Button } from "@clerk/nextjs";
+import { SignedIn, UserButton, SignedOut } from "@clerk/nextjs";
+import { Button } from "../ui/button"
+
 
 
 const MobileNav = () => {
